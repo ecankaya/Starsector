@@ -1,28 +1,15 @@
 {
-  "id": "author_modname", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
-  "name": "Pasha StarSystem", # Displayed to the player
-  "author": "Pasha",
-  "utility": false,
-  "version": { "major": '1', "minor": '0', "patch": '0' },
-  "description": "Pasha StarSystem.",
+  "id":"PashaRacing", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name":"RacingSector", # Displayed to the player
+  "author":"Pasha",
+  "utility":"false",
+  "version":"1.0.0",
+  "description":"RacingSector description",
   "gameVersion": "0.98a",
-  "jars": [ "jars/Template.jar" ],
-  "modPlugin": "author.mymod.TemplateModPlugin",
+  "jars":["jars/Template.jar"],
+  "modPlugin":"RacingSector.TemplateModPlugin",
   "dependencies": [
-   # {
-   #     "id": "lw_lazylib",
-   #     "name": "LazyLib", # Optional (recommended)
-   #     #"version": "2.7b" # Optional
-   # },
-   # {
-   #     "id": "MagicLib",
-   #     "name": "MagicLib",
-   #     #"version": "0.34"
-   # },
-   # {
-   #     "id": "shaderLib",
-   #     "name": "GraphicsLib",
-   #     #"version": "1.5.1"
-   # }
-  ],
+
+  ]
 }
+
